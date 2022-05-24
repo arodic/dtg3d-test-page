@@ -5,7 +5,7 @@
     <meta name="google" content="notranslate" />
     <meta content="text/html; charset=UTF-8" name="Content-Type" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Staged 3D Editor Demo</title>
+    <title>Embody 3D Editor Demo</title>
     <style>
       html, body {
         width: 100%;
@@ -28,14 +28,14 @@
         display: none;
       }
     </style>
-    <script type="module" src="./bundle/staged-editor.js"></script>
+    <script type="module" src="./bundle/embody-editor.js"></script>
   </head>
   <body>
-    <staged-editor></staged-editor>
+    <embody-editor></embody-editor>
     <io-color-panel></io-color-panel>
     <script type="module">
-      import * as THREE from './bundle/staged-editor.js';
-      const editor = document.querySelector('staged-editor');
+      import * as THREE from './bundle/embody-editor.js';
+      const editor = document.querySelector('embody-editor');
       editor.loadScene('scenes/tshirt_v7_blank.json');
 
       const colorPicker = document.querySelector('io-color-panel');
