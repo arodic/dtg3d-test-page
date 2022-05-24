@@ -1,0 +1,54 @@
+{
+  "version": 0,
+  "environment": {
+    "ibl": {
+      "url": "assets/ibl/white_studio_03.hdr"
+    }
+  },
+  "garment": {
+    "model": {
+      "url": "./assets/models/tshirt v07/tshirt v07.glb"
+    },
+    "envelope": {
+      "url": "./assets/models/tshirt v07/tshirt v07 envelope.glb"
+    },
+    "textures": [
+      {
+        "url": "assets/models/tshirt v07/textures/thread_ao.jpeg",
+        "channel": "diffuseDetailTexture",
+        "targets": ["front", "back", "sleeve-r", "sleeve-l"],
+        "repeat": {"x": 200, "y": 200}
+      }, {
+        "url": "assets/models/tshirt v07/textures/thread_normal.jpeg",
+        "channel": "normalDetailTexture",
+        "targets": ["front", "back", "sleeve-r", "sleeve-l"],
+        "repeat": {"x": 200, "y": 200}
+      }, {
+        "url": "assets/models/tshirt v07/textures/threadcollar_ao.jpeg",
+        "channel": "diffuseDetailTexture",
+        "targets": ["collar"],
+        "repeat": {"x": 200, "y": 200}
+      }, {
+        "url": "assets/models/tshirt v07/textures/threadcollar_normal.jpeg",
+        "channel": "normalDetailTexture",
+        "targets": ["collar"],
+        "repeat": {"x": 200, "y": 200}
+      }
+    ],
+    "printAreas": [{
+      "name": "front",
+      "targetMeshName": "front",
+      "resolution": [4096, 4096],
+      "uvBounds": [0.65, 0.42, 0.85, 0.63],
+      "centimeterWidthHeight": [30, 30],
+      "layers": []
+    }, {
+      "name": "back_label",
+      "targetMeshName": "back",
+      "resolution": [512, 512],
+      "uvBounds": [0.552, 0.133, 0.62, 0.22],
+      "centimeterWidthHeight": [10, 10],
+      "layers": []
+    }]
+  }
+}
