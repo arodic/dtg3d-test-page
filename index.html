@@ -28,13 +28,12 @@
         display: none;
       }
     </style>
-    <script type="module" src="./bundle/embody-editor.js"></script>
   </head>
   <body>
     <embody-editor></embody-editor>
     <io-color-panel></io-color-panel>
     <script type="module">
-      import * as THREE from './bundle/embody-editor.js';
+      import { THREE } from './bundle/embody-editor.js';
       const editor = document.querySelector('embody-editor');
       editor.loadScene('scenes/tshirt_v7_blank.json');
 

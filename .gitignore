@@ -2,11 +2,3 @@
 .vscode
 yarn-error.log*
 /node_modules/*
-!/node_modules/three/
-!/node_modules/three/*
-!/node_modules/io-gui/
-!/node_modules/io-gui/*
-!/node_modules/io-gui-three-ui/
-!/node_modules/io-gui-three-ui/*
-!/node_modules/io-gui-three-controls/
-!/node_modules/io-gui-three-controls/*
