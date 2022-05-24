@@ -1,1 +1,0 @@
-{"version":3,"file":"GraphicMaterial.d.ts","sourceRoot":"","sources":["../../src/materials/GraphicMaterial.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,EAA6C,MAAM,OAAO,CAAC;AAQ7F,qBAAa,eAAgB,SAAQ,iBAAiB;IACpD,MAAM,SAAK;IACX,QAAQ,SAAM;IACd,MAAM,EAAE,MAAM,GAAG,IAAI,CAAQ;gBACjB,UAAU,EAAE,GAAG;IAO3B,cAAc;IAOd,eAAe,CAAC,MAAM,EAAE,MAAM;CAuB/B"}
